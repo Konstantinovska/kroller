@@ -1,0 +1,101 @@
+.hero-section {
+  padding: 124px 0;
+  background-image: linear-gradient(
+      102.76deg,
+      rgba(13, 13, 12, 0.78) 0.03%,
+      rgba(18, 18, 17, 0.6) 28.46%,
+      rgba(18, 18, 17, 0) 90.36%
+    ),
+    url(../images/man_and_geurl-jump_rollers.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+
+  @media screen and (min-width: $bp-tablet) {
+    padding: 272px 0 20px, 0;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        102.76deg,
+        rgba(18, 18, 17, 0.78) 2.03%,
+        rgba(18, 18, 17, 0.6) 58.46%,
+        rgba(18, 18, 17, 0) 70.36%
+      ),
+      url('../images/man_and_geurl-jump_rollers.jpg');
+  }
+  .hero-section__title {
+    margin-bottom: 48px;
+    color: var(--color-primary-light);
+    text-align: center;
+    font-size: 67px;
+    line-height: 1;
+    font-weight: 900;
+
+    @media screen and (min-width: $bp-desktop) {
+  
+      margin-bottom: 0;
+      margin-left: 0;
+      font-size: 112px;
+      line-height: 1.5;
+    }
+  }
+  .hero-section__button {
+    margin: 0 auto;
+
+    @media screen and (min-width: $bp-desktop) {
+      display: none;
+    }
+  }
+}
+
+.slogan {
+  color: var(--color-primary-light);
+  text-align: center;
+  font-size: 56px;
+  padding-top: 98%;
+
+}
+
+// advantages-section
+.advantages-section {
+    padding: 40px 0 20px;
+  
+    @media screen and (min-width: $bp-tablet) {
+      padding: 16px 0;
+      background-color: var(--color-brand);
+    }
+  
+    &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding: 24px 40px;
+      background-color: var( --color-primary-light);
+      border-radius: 24px;
+  
+      @media screen and (min-width: $bp-tablet) {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 40px;
+        background-color: transparent;
+        padding: 0;
+      }
+    }
+  
+    &__item {
+      font-size: 24px;
+      font-weight: 400;
+      border: 2px solid var(--color-secondary);
+      background-color: var(--color-secondary);
+      transform: skew(-16deg );
+      padding: 8px 24px;
+      border-radius: 4px;
+  
+      @media screen and (min-width: $bp-tablet) {
+        color: var(--color-primary-light);
+        font-size: 32px;
+      }
+    }
+  }

@@ -1,0 +1,32 @@
+.link {
+    color: var(--color-primary-light);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--color-brand);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.police-link {
+    color: var(--color-primary-dark);
+}
+
+.adress-link {
+    color: var(--color-primary-light);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.adress-link:hover {
+    color: var(--color-brand);
+    text-decoration: underline;
+}
+
+.form-terms__link {
+    color: var(--color-primary-dark);
+    text-underline-offset: 2px;
+    text-decoration: underline;
+}
