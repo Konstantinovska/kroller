@@ -1,0 +1,102 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 16px;
+  background: transparent;
+  padding-bottom: 16px;
+  z-index: 2;
+
+  @media screen and (min-width: $bp-desktop) {
+    background: linear-gradient(
+      transparent,
+      90%,
+      var(--color-primary-dark),
+      95%
+    );
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+
+    @media screen and (max-width: $bp-tablet) {
+      display: none;
+    }
+  }
+
+  .header-item {
+    font-size: 24px;
+    font-weight: 600;
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    @media screen and (min-width: $bp-desktop) {
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+
+  .header__button {
+    @media screen and (max-width: $bp-tablet) {
+      width: 64px;
+      height: 64px;
+      padding: 4px 4px;
+      color: transparent;
+      font-size: 0.1px;
+      border: transparent;
+      z-index: 3;
+      background: transparent;
+       align-items: center;
+    }
+
+    @media screen and (min-width: $bp-tablet), (max-width: $bp-desktop) {
+      align-items: center;
+      font-weight: 400;
+    // margin-right: 10vw;
+    }
+  }
+
+  .header-icon-phon {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+
+    background-color: transparent;
+    border: 1px solid transparent;
+    display: block;
+    
+    @media screen and (min-width: $bp-tablet) {
+      display: none;
+    }
+  }
+  .header__burger {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    fill: var(--color-brand);
+    display: block;
+
+    @media screen and (min-width: $bp-tablet) {
+      display: none;
+    }
+  }
+
+  .header__logo {
+    display: flex;
+  }
+}

@@ -1,0 +1,61 @@
+.chef-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  justify-content: center;
+  flex-direction: column;
+
+  @media screen and (min-width: $bp-desktop) {
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .chef-card:hover {
+    transform: scale(2);
+  }
+
+  .chef-card__photo {
+    // width: 140px;
+    border-radius: 2px 2px 2px 116px;
+    box-shadow: 
+      -8px 8px 10px var(--color-secondary);
+
+    @media screen and (min-width: $bp-tablet) {
+      // width: 240px;
+      border-radius: 4px 4px 4px 40px;
+      box-shadow: 
+        -8px 8px 10px var(--color-secondary);
+    }
+  }
+  .chef-card__info  {
+    max-width: 80%;
+  
+    margin: 0 auto;
+  }
+
+
+  
+  .chef-card__title {
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 40px;
+    }
+  }
+
+  .chef-card__text {
+    font-size: 16px;
+    margin-bottom: 24px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 24px;
+    }
+  }
+}
