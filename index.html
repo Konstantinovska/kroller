@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kroller</title>
+    <link rel="stylesheet" href="./css/main-min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <a class="header__logo" href="index.html">
+            <img
+              src="./images/Logo-kroller.svg"
+              width="160"
+              alt="logo-backery"
+            />
+          </a>
+          <nav class="header__nav">
+            <ul class="header__menu">
+              <li class="header-item">
+                <a class="link header_link-long" href="#tradition-section"
+                  >About us</a
+                >
+              </li>
+              <li class="header-item">
+                <a
+                  class="link header_link header_link-long"
+                  href="#chefs-section"
+                >
+                  Our trainers</a
+                >
+              </li>
+              <li class="header-item">
+                <a class="link header_link" href="#formats-section">Training</a>
+              </li>
+              <li class="header-item">
+                <a class="link header_link" href="#contact-section">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <button class="button header__button modal-btn-open" type="button">
+            Call me
+          </button>
+
+          <button class="header__burger menu-btn-open" type="button">
+            <svg class="burger" width="24px" height="24px">
+              <use href="./images/icons-back.svg#icon-menu-vector"></use>
+            </svg>
+          </button>
+
+          <div class="mobile-menu mobile-menu-expanded nav_toggle">
+            <button class="mobile-menu__btn-close menu-btn-close" type="button">
+              <svg width="24" height="24">
+                <use
+                  href="./images/icons-back.svg#icon-cross-group-converted"
+                ></use>
+              </svg>
+            </button>
+            <a class="mobile-menu__logo" href="index.html">
+              <img src="./images/Logo-kroller.svg" alt="logo-kroller" />
+            </a>
+            <nav class="mobil__nav mobile-nav">
+              <ul class="mobile-menu__list">
+                <li>
+                  <a class="mobile-menu__link" href="#tradition-section">
+                    About us
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="mobile-menu__link menu-btn-close"
+                    href="#chefs-section"
+                  >
+                    Our trainers
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="mobile-menu__link menu-btn-close"
+                    href="#formats-section"
+                    >Training</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="mobile-menu__link menu-btn-close"
+                    href="#contact-section"
+                  >
+                    Contacts
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header END -->
+    <!-- Hero-section START -->
+    <section class="hero-section">
+      <div class="container hero-section_container">
+        <div class="image_media"></div>
+        <div class="hero-section_video-bg">
+          <video
+            class="video__media"
+            src="./images/sky-medium_1mb.mp4"
+            autoplay
+            muted
+            loop
+            poster="./images/sky-poster.png"
+          ></video>
+        </div>
+
+        <div class="hero-section_containt">
+          <div class="hero-section_main-info">
+            <h1 class="hero-section__title">
+              Kroller
+              <span class="text-brand-color hero-section-title-span"
+                >roller club</span
+              >
+            </h1>
+
+            <h2 class="hero-section__title-adress">Irpin, Bucha</h2>
+          </div>
+
+          <div class="hero-section-discount">
+            50% discount <br /><span class="discount-span"
+              >on your first lesson!</span
+            >
+          </div>
+
+          <div class="hero-section_slogan">
+            <h3 class="hero-section_slogan-text">
+              <em>Let's teach everyone to roller skate!</em>
+            </h3>
+            <h6 class="hero-section_adress-info-small">
+              15 min. from "Akademmistechko" (Kiev Metro)
+            </h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantages-section">
+      <div class="container">
+        <h2 class="visually-hidden">advantages</h2>
+        <ul class="advantages-section__list">
+          <li class="advantages-section__item">Individual training</li>
+          <li class="advantages-section__item">Experienced trainers</li>
+          <li class="advantages-section__item">Specialized equipment</li>
+          <li class="advantages-section__item">Modern training techniques</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="tradition-section">
+      <div class="container">
+        <div class="tradition-section__container">
+          <div class="tradition-section__content">
+            <h2 class="tradition-section__title section-title section__title">
+              About us
+            </h2>
+            <img
+              class="tradition-section__image"
+              src="./images/Vadim-trainer.jpg"
+              srcset="
+                ./images/Vadim-trainer.jpg    1x,
+                ./images/Vadim-trainer@2x.jpg 2x
+              "
+              alt="main trainer"
+            />
+            <h4>
+              <span class="text-brand text-uppercase text-bold"
+                >Hi! I am Vadim.
+              </span>
+            </h4>
+            <p class="tradition-section_text">
+              I have been working with children for 4 years now, and I have 8
+              years of personal skating experience. I have teaching and coaching
+              skills and knowledge in the field of child and adolescent
+              psychology. I love children very much and that’s why I enjoy my
+              work.
+            </p>
+
+            <p class="tradition-section_text">
+              We teach roller skating to everyone, adults and
+              <span class="text-brand text-bold"
+                >children from the age of three.
+              </span>
+              We provide both individual and group training. Our students have
+              repeatedly become winners of competitions. We have everything you
+              need for your safety, including spare protection kits. We can
+              teach anyone how to ride! Rollerblading is fun, it's healthy and
+              it's cool!
+            </p>
+          </div>
+
+          <div>
+            <img
+              class="tradition-section__image tradition-section__image-big"
+              src="./images/rollers-sunset.jpg"
+              alt="rollers"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chefs-section section" id="chefs-section">
+      <div class="container">
+        <h2 class="chefs-section_title section__title section__title--centered">
+          Our trainers
+        </h2>
+        <ul class="chefs-section__list">
+          <li class="chefs-section__item">
+            <article class="chef-card">
+              <img
+                class="chef-card__photo"
+                src="./images/Traner_Max!.jpg"
+                alt="Trainer Max "
+              />
+              <div class="chef-card__info">
+                <h3 class="chef-card__title">Max</h3>
+                <p class="chef-card__text">For me, rollerblading is freedom!</p>
+              </div>
+            </article>
+          </li>
+          <li class="chefs-section__item">
+            <article class="chef-card">
+              <img
+                class="chef-card__photo"
+                src="./images/Trainer-Veronika!.jpg"
+                alt="Trainer-Veronika"
+              />
+              <div class="chef-card__info">
+                <h3 class="chef-card__title">Veronika</h3>
+
+                <p class="chef-card__text">
+                  I love doing what everyone thinks is impossible
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <li class="chefs-section__item">
+            <article class="chef-card">
+              <img
+                class="chef-card__photo"
+                src="./images/Traner_Kira.jpg"
+                alt="Trainer-Veronika"
+              />
+              <div class="chef-card__info">
+                <h3 class="chef-card__title">Kira</h3>
+
+                <p class="chef-card__text">
+                  Nothing makes me happier than the success of my little
+                  students.
+                </p>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="formats-section">
+      <div class="container">
+        <h2 class="formats-section__title centered section__title">
+          Our training
+        </h2>
+        <div class="formats-section__slider">
+          <button class="carousel-button prev" type="button">
+            <svg class="formats-icon" width="16px" height="16px">
+              <use href="./images/icons-back.svg#icon-arrow1"></use>
+            </svg>
+          </button>
+
+          <div class="swiper-container">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <article class="formats-card">
+                  <img
+                    class="format-section__image"
+                    src="./images/Roller_001.jpg"
+                    alt="rollerblading"
+                  />
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="formats-card">
+                  <img
+                    class="format-section__image"
+                    src="./images/Roller_002.jpg"
+                    alt="rollerblading"
+                  />
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="formats-card">
+                  <img
+                    class="format-section__image"
+                    src="./images/roller_006.jpg"
+                    alt="rollerblading"
+                  />
+                </article>
+              </li>
+
+              <li class="swiper-slide">
+                <article class="formats-card">
+                  <img
+                    class="format-section__image new-image"
+                    src="./images/Roller_004.jpg"
+                    alt="rollerblading"
+                  />
+                </article>
+              </li>
+
+              <li class="swiper-slide">
+                <article class="formats-card">
+                  <img
+                    class="format-section__image new-image"
+                    src="./images/roller_005.jpg"
+                    alt="rollerblading"
+                  />
+                </article>
+              </li>
+
+              <li class="swiper-slide">
+                <article class="formats-card">
+                  <img
+                    class="format-section__image new-image"
+                    src="./images/roller_008.jpg"
+                    alt="rollerblading"
+                  />
+                </article>
+              </li>
+            </ul>
+            <div class="pagination">
+              <span class="pagination__button"></span>
+              <span class="pagination__button"></span>
+              <span class="pagination__button"></span>
+              <span class="pagination__button"></span>
+              <span class="pagination__button"></span>
+              <span class="pagination__button"></span>
+            </div>
+          </div>
+
+          <button
+            class="carousel-button next formats-button-next"
+            type="button"
+          >
+            <svg class="formats-icon" width="16px" height="16px">
+              <use href="./images/icons-back.svg#icon-arrow1"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact-section">
+      <div class="container">
+        <div class="contact-section__container">
+          <div class="contact-section__form">
+            <h2 class="contact-section__title section-title section__title">
+              Join us!
+            </h2>
+            <p class="contact-section_form-text">
+              Fill out the form so we can contact you!
+            </p>
+            <form name="contact-form" autocomplete="off">
+              <div class="contact-section__form-field input">
+                <label
+                  class="input__label visually-hidden"
+                  for="contact-section_user-name"
+                >
+                  Name
+                </label>
+                <input
+                  class="input__control"
+                  type="text"
+                  name="contact-section_user-name"
+                  id="contact-section_user-name"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+
+              <div class="contact-section__form-field input">
+                <label
+                  class="input__label visually-hidden"
+                  for="contact-section_user-tel"
+                >
+                  Tel
+                </label>
+                <input
+                  class="input__control"
+                  type="tel"
+                  name="contact-section_user-tel"
+                  id="contact-section_user-tel"
+                  placeholder="Tel"
+                  pattern="^\+[0-9]{12}"
+                  required
+                />
+              </div>
+
+              <div class="contact-section__form-field input">
+                <label
+                  class="input__label visually-hidden"
+                  for="contact-section_user-email"
+                >
+                  e-mail
+                </label>
+                <input
+                  class="input__control"
+                  type="email"
+                  name="contact-section_user-email"
+                  id="contact-section_user-email"
+                  placeholder="e-mail"
+                  required
+                />
+              </div>
+
+              <button class="contact-section__button button" type="submit">
+                Call me
+              </button>
+              <p class="form-terms">
+                By clicking on the button I agree<br />
+                <a class="form-terms__link" href="#"> privacy policy</a>
+              </p>
+            </form>
+          </div>
+          <iframe
+            class="contact-section__map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.734961168113!2d30.2423805!3d50.520498100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472b33d30f42e483%3A0x398df907db8e4e6a!2z0LLRg9C70LjRhtGPINCh0LvQvtCyJ9GP0L3RgdGM0LrQsCwgMzUsINCG0YDQv9GW0L3RjCwg0JrQuNGX0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgMDgyMDA!5e0!3m2!1suk!2sua!4v1739291131880!5m2!1suk!2sua"
+            width="450"
+            height="600"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <nav class="footer__nav">
+            <a href="#" class="footer__logo">
+              <img
+                src="./images/Logo-kroller.svg"
+                alt="Logo-kroller"
+                width="250"
+              />
+            </a>
+            <ul class="footer__menu">
+              <li>
+                <a class="link" href="#tradition-section"> About us</a>
+              </li>
+              <li><a class="link" href="#chefs-section"> Our trainers</a></li>
+              <li><a class="link" href="#formats-section">Training</a></li>
+              <li><a class="link" href="#contact-section">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="footer__adress">
+            <div class="footer__contacts">
+              <ul class="footer__adress-list">
+                <li>
+                  <a class="footer__address-link" href="tel:+380960000007"
+                    >+ 38 (096) 000 00 07</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="footer__address-link"
+                    href="mailto:kroller@gmail.com"
+                    >kroller@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="footer__address-link"
+                    href="https://maps.app.goo.gl/onsLZ6NXytmqhaWB6"
+                    >Ukraine, Irpin, <br />
+                    35 Slovianska str,
+                  </a>
+                </li>
+              </ul>
+              <div class="footer__socials">
+                <a
+                  class="#"
+                  href="https://www.facebook.com/profile.php?id=100089459044067"
+                >
+                  <svg class="footer__socials-icon" width="32px" height="32px">
+                    <use href="./images/icons-back.svg#icon-fb"></use>
+                  </svg>
+                </a>
+
+                <a class="#" href="https://www.instagram.com/kroller.irp/">
+                  <svg class="footer__socials-icon" width="32px" height="32px">
+                    <use href="./images/icons-back.svg#icon-insta"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </address>
+
+          <div class="footer__address-info">
+            <a class="footer__address-link" href="#" target="_blank"
+              >privacy policy</a
+            >
+
+            <p class="footer__address-copyright">
+              &copy; 2025 All data is protected
+            </p>
+            <p>
+              <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img
+                  style="border: 0; width: 88px; height: 31px"
+                  src="https://jigsaw.w3.org/css-validator/images/vcss"
+                  alt="Valid CSS!"
+                />
+              </a>
+            </p>
+
+            <p>
+              <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img
+                  style="border: 0; width: 88px; height: 31px"
+                  src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                  alt="Valid CSS!"
+                />
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <button class="modal-btn-close" type="button">
+          <svg width="24px" height="24px">
+            <use
+              href="./images/icons-back.svg#icon-cross-group-converted"
+            ></use>
+          </svg>
+        </button>
+
+        <h2 class="modal__title">Call me</h2>
+        <p class="modal__text">
+          <em>Leave a request and our specialist will contact you!</em>
+        </p>
+
+        <form name="modal-form" autocomplete="off">
+          <div class="modal__form-field">
+            <label class="input__label visually-hidden" for="user-name">
+              Name
+            </label>
+            <input
+              class="input__control"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Name"
+              required
+            />
+          </div>
+          <div class="modal__form-field input">
+            <label class="input__label visually-hidden" for="user-tel">
+              Tel
+            </label>
+            <input
+              class="input__control"
+              type="tel"
+              name="user-tel"
+              id="user-tel"
+              placeholder="Tel"
+              pattern="^\+[0-9]{12}"
+              required
+            />
+          </div>
+
+          <div class="modal__form-field input">
+            <label class="input__label visually-hidden" for="user-email">
+              e-mail
+            </label>
+            <input
+              class="input__control"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="e-mail"
+              required
+            />
+          </div>
+
+          <button class="button header__button modal-btn-open" type="button">
+            Call me
+          </button>
+
+          <p class="form-terms">
+            By clicking on the button I agree
+            <a class="form-terms__link" href="#"> privacy policy</a>
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <div class="java-test"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/mobil.js"></script>
+<script src="./test.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal-backdrop.js"></script>
+  </body>
+</html>
